@@ -8,20 +8,16 @@
 $ pip install shipzo_cmd
 ```
 ## **결과**
-- 더하기
 ```py
+# 더하기
 $ python
->>> from shipzo_sum.shipzo_sum import sum
+>>> from shipzo_plus.shipzo_plus import sum
 >>> sum(a,b)
-```
-- 곱하기
-```py
+# 곱하기
 $ python
 >>> from shipzo_mult.shipzo_mult import mult
 >>> mult(a,b)
-```
-- 나누기
-```py
+# 나누기
 $ python
 >>> from shipzo_divide.shipzo_divide import divide
 >>> divide(a,b)
