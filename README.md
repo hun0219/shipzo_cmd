@@ -11,22 +11,21 @@ $ pip install shipzo_cmd
 - 더하기
 ```py
 $ python
+>>> from shipzo_sum.shipzo_sum import sum
 >>> sum(a,b)
->>> sum(a+b)
 ```
 - 곱하기
 ```py
 $ python
->>> sum(a,b)
->>> sum(a*b)
+>>> from shipzo_mult.shipzo_mult import mult
+>>> mult(a,b)
 ```
 - 나누기
 ```py
 $ python
->>> sum(a,b)
->>> sum(a/b)                                                                       
+>>> from shipzo_divide.shipzo_divide import divide
+>>> divide(a,b)
 ```
-
 ## **참조**
 - 더하기
 https://github.com/rlaehgus97/shipzo_plus
