@@ -22,6 +22,8 @@ $ python
 >>> from shipzo_divide.shipzo_divide import divide
 >>> divide(a,b)
 ```
+![image](https://github.com/user-attachments/assets/d7757857-0708-4b63-8e8b-36967f4cce00)
+
 ## **참조**
 - 더하기
 https://github.com/rlaehgus97/shipzo_plus
