@@ -1,22 +1,11 @@
-from shipzo_plus.shipzo_plus import sum
-from shipzo_mult.shipzo_mult import mult
-from shipzo_divide.shipzo_divide import divide
+import sys
 
-def call():
-    sum()
-    mult()
-    divide()
+def add(x, y):
+    return x + y
 
-#    sum_result = sum(a, b)
-#    mult_result = mult(a, b)
-#    divide_result = divide(a, b)
-#
-#    print(f"Sum: {sum_result}")
-#    print(f"Multiplication: {mult_result}")
-#    print(f"Division: {divide_result}")
-#def call():
-#    result = sum(a,b)
-#    print(f"fff: {result}")
-#
-#if __name__=="__main__":
-#    call()
+
+a = int(sys.argv[0])
+b = int(sys.argv[1])
+
+result = add(a, b)
+print(f"a={a},"+" b={b} : {result}")

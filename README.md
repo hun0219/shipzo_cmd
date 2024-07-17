@@ -6,23 +6,9 @@
 ## **설치**
 ```py
 $ pip install shipzo_cmd
+$ pip list
 ```
 ## **결과**
-```py
-# 더하기
-$ python
->>> from shipzo_plus.shipzo_plus import sum
->>> sum(a,b)
-# 곱하기
-$ python
->>> from shipzo_mult.shipzo_mult import mult
->>> mult(a,b)
-# 나누기
-$ python
->>> from shipzo_divide.shipzo_divide import divide
->>> divide(a,b)
-```
-![image](https://github.com/user-attachments/assets/d7757857-0708-4b63-8e8b-36967f4cce00)
 
 ## **참조**
 - 더하기
