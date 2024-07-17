@@ -1,6 +1,6 @@
 [project]
 name = "shipzo_cmd"
-version = "0.2.0"
+version = "0.2.2"
 description = "project package"
 authors = [
     {name = "hun0219", email = "gsw98000@gmail.com"},
@@ -15,7 +15,7 @@ readme = "README.md"
 license = {text = "MIT"}
 
 [project.urls]
-Homepage = "https://github.com/hun0219/shipzo_cmd"
+GitHub = "https://github.com/hun0219/shipzo_cmd"
 
 #[project.scripts]
 #1plus = 'shipzo_plus.cmd:sum'
