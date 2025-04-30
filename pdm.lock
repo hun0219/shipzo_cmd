@@ -4,16 +4,41 @@
 [metadata]
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
-lock_version = "4.4.2"
-content_hash = "sha256:0571b446d790ca3870c4f5177287c4e4dc8839271aaf39da8a9f24274b5c04a5"
+lock_version = "4.5.0"
+content_hash = "sha256:8f8428e4cb33d6a0d95c67113414ffe2998e2d8772a6c550918d35808dba2ea3"
+
+[[metadata.targets]]
+requires_python = ">=3.9"
 
 [[package]]
-name = "shipzo-mult"
-version = "0.1.2"
+name = "shipzo-divide-hun"
+version = "0.1.0"
 requires_python = ">=3.9"
 summary = "Default template for PDM package"
 groups = ["default"]
 files = [
-    {file = "shipzo_mult-0.1.2-py3-none-any.whl", hash = "sha256:a474a7354ce93fe51d0495cca5ace5b41f419da49d750bf08f8c99ebbee10f61"},
-    {file = "shipzo_mult-0.1.2.tar.gz", hash = "sha256:c9cd0b762bc79b8658e2cc1c2762f5bad537b835c0a273684d4b3c9c8d72b5f1"},
+    {file = "shipzo_divide_hun-0.1.0-py3-none-any.whl", hash = "sha256:ac031c063ea49fcabecdc72a7701dc9830ec58bcaeec3bbb6b403690a94fe370"},
+    {file = "shipzo_divide_hun-0.1.0.tar.gz", hash = "sha256:914903f0805e4b17b2ff9d0f4aee5a4538cd74482c6fa3289a63eac52c5ae5c5"},
+]
+
+[[package]]
+name = "shipzo-mult-hun"
+version = "0.1.0"
+requires_python = ">=3.9"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "shipzo_mult_hun-0.1.0-py3-none-any.whl", hash = "sha256:cd11c137885cbde69e627303fbde4718690009d841d82582613162d47f78d2e9"},
+    {file = "shipzo_mult_hun-0.1.0.tar.gz", hash = "sha256:7a17acf57d5db3f14d0e104e6eb83ab1d32477a0eba4d2e1281527d7668c535f"},
+]
+
+[[package]]
+name = "shipzo-plus-hun"
+version = "0.1.6"
+requires_python = ">=3.9"
+summary = "Shipzo Plus 기능을 제공하는 패키지"
+groups = ["default"]
+files = [
+    {file = "shipzo_plus_hun-0.1.6-py3-none-any.whl", hash = "sha256:43b54626dec8dcc9115116e8a0f85e856267914baff176c2eafe76aba5ec6ec4"},
+    {file = "shipzo_plus_hun-0.1.6.tar.gz", hash = "sha256:b191eaef2eb7da68eacd65a03b6d6a43146d478438293a2c4863397db2813bcf"},
 ]

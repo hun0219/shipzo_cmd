@@ -1,11 +1,12 @@
-from shipzo_plus.shipzo_plus import plus
-from shipzo_mult.shipzo_mult import mult
-from shipzo_divide.shipzo_divide import divide
+#from shipzo_plus.shipzo_plus import plus
+from shipzo_plus.plus import plus
+from shipzo_mult.mult import mult
+from shipzo_divide.divide import divide
 
 def call():
-    plus()
-    mult()
-    divide()
+    plus(2, 5)
+    mult(3, 5)
+    divide(7, 2)
 
 #    sum_result = sum(a, b)
 #    mult_result = mult(a, b)
